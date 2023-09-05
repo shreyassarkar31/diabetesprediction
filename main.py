@@ -11,6 +11,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import f1_score
 from sklearn.metrics import accuracy_score
 
-dataset = p.read_csv('KNN Dataset.csv')
+dataset = p.read_csv('KNN_Dataset.csv')
 
 print(len(dataset))
+print(dataset.head())
